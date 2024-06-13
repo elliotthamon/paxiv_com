@@ -1,0 +1,10 @@
+{
+  "hosted-zone:account=658751175699:domainName=paxiv.xyz:region=us-east-2": {
+    "Id": "/hostedzone/Z01188048OMZU7WUHO3A",
+    "Name": "paxiv.xyz."
+  },
+  "hosted-zone:account=658751175699:domainName=paxiv.com:region=us-east-2": {
+    "Id": "/hostedzone/Z0904170UX2N6DNAMDLX",
+    "Name": "paxiv.com."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // es5, es6
+    "lib": ["dom", "dom.iterable", "esnext"],
+
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "module": "esnext", // CommonJS
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    // Tell ts-node CLI to install the --loader automatically
+    "esm": true
+  }
+}
